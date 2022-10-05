@@ -35,7 +35,7 @@ ASSIGNMENT RULES
  Create a variable named x and assign to it the number 12.
 */
 
-let x = 12;
+// ------- let x = 12;
 
 /* EXERCISE 5
  Create a variable called name and assign to it the string "John Doe".
@@ -76,6 +76,37 @@ let x = 12;
  [Extra] Assign a value to a variable using a ternary operator (this topic has not been covered during lesson yet,
  try to search it by yourself, tomorrow morning we'll discuss it together!)
 */
+
+let numberr = 8;
+
+if (numberr === 0) {
+  console.log("Zero");
+} else if (numberr === 1) {
+  console.log("One");
+  if (numberr === 2) {
+    console.log("Two");
+  }
+}
+if (numberr === 3) {
+  console.log("Three");
+} else if (numberr === 4) {
+  console.log("Four");
+}
+if (numberr === 5) {
+  console.log("Five");
+} else if (numberr === 6) {
+  console.log("Six");
+}
+if (numberr === 7) {
+  console.log("Seven");
+} else if (numberr === 8) {
+  console.log("Eight");
+}
+if (numberr === 9) {
+  console.log("Nine");
+} else if (numberr === 10) {
+  console.log("Ten");
+}
 
 // function getPrice(Item) {
 //   return Item ? "15" : "30";
